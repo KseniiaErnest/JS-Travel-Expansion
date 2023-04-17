@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lily+Script+One&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="heading-container">
+      <h1>Choose your destination!</h1>
+    </div>
+
+    <div class="container">
+      <div class="one item expansion">
+        <h4>France</h4>
+        <p class="description">where elegance meets joie de vivre</p>
+        <p class="price">1500$</p>
+      </div>
+      <div class="two item">
+        <h4>Tokyo</h4>
+        <p class="description">
+          where tradition and innovation converge in a bustling metropolis
+        </p>
+        <p class="price">1700$</p>
+      </div>
+      <div class="three item">
+        <h4>New York</h4>
+        <p class="description">
+          the city that never sleeps, where dreams are made and anything is
+          possible
+        </p>
+        <p class="price">1300$</p>
+      </div>
+      <div class="four item">
+        <h4>London</h4>
+        <p class="description">
+          where history and modernity collide in a vibrant and diverse city
+        </p>
+        <p class="price">1450$</p>
+      </div>
+      <div class="five item">
+        <h4>Singapore</h4>
+        <p class="description">
+          the island city-state where East meets West, and modernity harmonizes
+          with nature
+        </p>
+        <p class="price">1800$</p>
+      </div>
+      <div class="six item">
+        <h4>Saint-Petersburg</h4>
+        <p class="description">
+          the cultural capital of Russia, where opulent architecture and
+          artistic treasures await
+        </p>
+        <p class="price">1350$</p>
+      </div>
+    </div>
+
+
+      <div class="heading-container" id="heading-change">
+        <h3>New destination is coming!</h3>
+      </div>
+
+
+      <div class="countdown-contianer">
+
+      <div class="countdown-box">
+        <div class="block">
+          <p class="days"></p>
+          <p>DAYS</p>
+        </div>
+      </div>
+
+      <div class="countdown-box">
+        <div class="block">
+          <p class="hours"></p>
+          <p>HOURS</p>
+        </div>
+      </div>
+
+      <div class="countdown-box">
+        <div class="block">
+          <p class="minutes"></p>
+          <p>MINUTES</p>
+        </div>
+      </div>
+
+      <div class="countdown-box">
+        <div class="block">
+          <p class="seconds"></p>
+          <p>SECONDS</p>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="heading-container">
+      <h3>Send us a message!</h3>
+    </div>
+
+    <form action="https://formspree.io/f/mdovwydl" method="POST">
+      <input type="hidden" name="_language" value="en" />
+
+      <div class="heading-container">
+        <label>
+          Your email:
+          <input
+            class="text-input"
+            type="email"
+            name="email"
+            placeholder="Your email..."
+            required=""
+          />
+        </label>
+      </div>
+
+      <div class="heading-container">
+        <label>
+          Your message:
+          <textarea
+            class="text-input"
+            name="message"
+            placeholder="Your message..."
+            required=""
+          ></textarea>
+        </label>
+      </div>
+      <!-- your other form fields go here -->
+      <div class="heading-container">
+        <button class="btn" type="submit">Send</button>
+      </div>
+    </form>
+
+    <script src="index.js"></script>
+  </body>
+</html>
